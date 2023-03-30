@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  h2,
+  p {
+    margin: 10px;
+  }
+  p{
+    font-weight: 700;
+  }
+  .profile-image {
+    border-radius: 50%;
+    object-fit: cover;
+    
+  }
+  .contact-button{
+    margin-top: 10px;
+    text-decoration: none;
+    color:white;
+    background:rgb(104, 10, 238);
+    padding: 12px;
+    border-radius: 4px;
+  }
+}

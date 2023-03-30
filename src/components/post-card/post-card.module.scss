@@ -1,0 +1,26 @@
+.card-container {
+  max-width: 400px;
+  .card {
+    text-decoration: none;
+    color: black;
+
+    .card-image {
+      border-radius: 8px;
+    }
+    .card-content {
+      padding: 10px;
+      h3 {
+        margin: 0;
+      }
+      .content-category {
+        
+        background-color: rgb(246, 88, 88);
+        color: white;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: 14px;
+        
+      }
+    }
+  }
+}

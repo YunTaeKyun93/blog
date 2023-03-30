@@ -1,0 +1,17 @@
+.wrapper{
+  width: 100vw;
+  max-width:1920px;
+  height: 100vh;
+  background-color: rgb(219, 213, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container{
+    width: 90vw;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 5px;
+     box-shadow: rgba(27, 27, 27,0.5) 8px 8px 8px;
+     overflow-y: auto;
+  }
+}

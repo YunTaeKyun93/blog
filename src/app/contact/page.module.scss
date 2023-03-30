@@ -1,0 +1,12 @@
+.wrapper{
+    display:flex;
+    justify-content:center;
+    .container{
+        max-width:1180px;
+        color:blue;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+}

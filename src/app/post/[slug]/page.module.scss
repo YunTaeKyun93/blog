@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  .post-container {
+    max-width: 1024px;
+    .border{
+      margin:  50px 0;
+      width:100%;
+      height:1px;
+      background-color:gray;
+    }
+    .post-carousel{
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .post-container {
+      max-width: 600px;
+
+      .border{
+        margin:  50px 0;
+        width:100%;
+        height:1px;
+        background-color:gray;
+      }
+      .post-carousel{
+        display: flex;
+        justify-content: space-between;
+  
+      }
+    }
+  }
+  
+}
