@@ -66,3 +66,15 @@
     }
   }
 }
+
+@media screen and ( max-width: 425px) {
+  .wrapper{
+    max-width: 300px;  
+    h1{
+      font-size:24px;
+    }
+    .menu-container{
+      font-size: 14px;
+    }
+  }
+}

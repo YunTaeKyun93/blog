@@ -36,7 +36,7 @@ export default function Header() {
             Contact
           </Link>
           <Link className={ss("menu", "menu2")} href="/about">
-            About Me
+            About
           </Link>
           <Link className={ss("menu")} href="/post">
             Post
