@@ -1,12 +1,12 @@
 import classnames from "classnames/bind";
-// import styles from "./header.module.scss";
+import '../styles/Home.module.css'
 import FeaturedPosts from "../components/featured-posts";
 import Hero from "../components/hero";
 import CarouselPosts from "./../components/carousel-posts/index";
-// const ss = classnames.bind(styles);
+
 export default function Home() {
   return (
-    <div>
+    <div className="wrapper">
       <Hero />
       {/* @ts-expect-error Server Component */}
       <FeaturedPosts />

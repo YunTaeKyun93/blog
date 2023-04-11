@@ -13,7 +13,7 @@ Ver13 : 서버 컴포넌트,  클라이언트 컴포넌트 생김
 컴포넌트 단위로 렌더링 방식을 규정
 
 /app 컴포넌트는 기본적으로 서버렌더링 방식
-![rendering](/public/images/post-contents/rendering-ver12-ver13.png)
+![rendering](/images/post-contents/rendering-ver12-ver13.png)
 
 ### 서버컴포넌트
 

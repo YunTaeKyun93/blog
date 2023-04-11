@@ -5,7 +5,7 @@
 src 하위 폴더 중 pages 안에 원하는 url path이름으로 파일을 만들면 라우팅 가능
  ``src/pages/contact.tsx ``
  ``localhost:3000/contact``
-![ver12routing](/public/images/post-contents/ver12routing.png)
+![ver12routing](/images/post-contents/ver12routing.png)
 
 
 ![Routing in Next.js Ver12](https://dcv19h61vib2d.cloudfront.net/thumbs/egghead-understand-static-and-dynamic-page-routing-in-next-js-Sk8Ik2h8U/egghead-understand-static-and-dynamic-page-routing-in-next-js-Sk8Ik2h8U.jpg)

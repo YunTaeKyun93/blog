@@ -37,7 +37,7 @@ const ProductsLoading = ()=>{
 export default ProductsLoading
 ```
 확인을 위해 dev모드로 확인을 하여 pre-rendering된 것을 보면 잘나온다.
-![loading devmode](/public/images/post-contents/loading-devmode.png)
+![loading devmode](/images/post-contents/loading-devmode.png)
 그렇지만 기본적으로 dev모드는 SSR로 렌더링이 되므로 loading은 의미가 없고, yarn build 후 start를 하면 SSG가 되므로, 의미가 없다.
 
 loading은 동적으로 보여질 SSR로 만들 때 필요하다.

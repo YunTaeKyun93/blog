@@ -5,6 +5,8 @@ import classnames from "classnames/bind";
 import styles from "./layout.module.scss";
 import Header from '@/components/header/index';
 import '../../public/static/fonts/style.css';
+import CursorMenu from "@/components/cursor-menu";
+
 const oswald = Oswald({
   subsets: ["latin"],
   weight: "700"
@@ -25,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={ss('wrapper')}>
+      <CursorMenu/>
         <div className={ss('container')}>
        <Header/>
         {children}

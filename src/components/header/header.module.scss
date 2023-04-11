@@ -30,6 +30,11 @@
         margin-top: 10px;
       }
     }
+    .cursor-menu{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
     .menu-container {
       border: 1px solid gray;
       width: 80vw;
@@ -39,7 +44,7 @@
       align-items: center;
       border-radius: 4px;
       transition: 0.3s;
-      font-weight:700;
+      font-weight: 700;
       .menu1 {
         border-left: 1px solid grey;
       }
@@ -49,31 +54,31 @@
         align-items: center;
         width: 150px;
         height: 40px;
-
+cursor: none;
         border-right: 1px solid gray;
         text-decoration: none;
         color: black;
         transition: 0.3s;
+        
       }
 
-    
-
       :hover {
-        color:  #646fd4;
-        font-weight:700;
+        cursor: none;
+        color: #646fd4;
+        font-weight: 700;
         transition: 0.3s;
       }
     }
   }
 }
 
-@media screen and ( max-width: 425px) {
-  .wrapper{
-    max-width: 300px;  
-    h1{
-      font-size:24px;
+@media screen and (max-width: 425px) {
+  .wrapper {
+    max-width: 300px;
+    h1 {
+      font-size: 24px;
     }
-    .menu-container{
+    .menu-container {
       font-size: 14px;
     }
   }

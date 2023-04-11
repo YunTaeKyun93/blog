@@ -15,7 +15,7 @@ export default function ContactSns (){
           <AiFillInstagram />
           <div className={ss("tooltip")}>Instagram</div>
         </a>
-        <a target="_blank" href="https://www.naver.com">
+        <a target="_blank" href="https://vercel.com/yuntaekyun93/blog/">
           <IoLogoVercel />
           <div className={ss("tooltip")}>Versel</div>
         </a>

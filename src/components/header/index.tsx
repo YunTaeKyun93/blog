@@ -1,23 +1,23 @@
 import Link from "next/link";
 
-import { Oswald,Open_Sans } from "next/font/google";
+import { Oswald, Open_Sans } from "next/font/google";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { IoLogoVercel } from "react-icons/io5";
 import classnames from "classnames/bind";
 import styles from "./header.module.scss";
-import ContactSns from '@/components/contact-sns';
+import ContactSns from "@/components/contact-sns";
+
 const oswald = Oswald({
   subsets: ["latin"],
   weight: "700"
 });
 const sans = Open_Sans({
-    subsets: ["latin"],
-    weight: "400"
-})
+  subsets: ["latin"],
+  weight: "400"
+});
 const ss = classnames.bind(styles);
 
 export default function Header() {
-
   return (
     <header className={ss("wrapper")}>
       <div className={ss("header-container")}>
@@ -42,8 +42,9 @@ export default function Header() {
             Post
           </Link>
 
-    <ContactSns/>
+          <ContactSns />
         </nav>
+    
       </div>
     </header>
   );
